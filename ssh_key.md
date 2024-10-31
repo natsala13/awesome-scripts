@@ -6,8 +6,10 @@ Run the command above, choose the default location with some meaningful name, an
 
 This will generate a new key pair id_rsa_name and id_rsa_name.pub in `~/.ssh/`
 
+The main convention is to have one key per machine. meaning you should genereate a key called `id_rsa` and only one of it.
 
 # Add the key to the ssh-agent so that the machine will know to use it.
+This step ca be skipped if you have only one key named `id_rsa`.
 
 `ssh-add ~/.ssh/id_rsa_<name>`
 
