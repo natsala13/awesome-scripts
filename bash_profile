@@ -21,3 +21,8 @@ PROMPT_COMMAND="history -a;$PROMPT_COMMAND"  # write command after each one.
 
 export PYTHONPATH=.
 
+# NvEnc do not check compatability between driver and NvEncodeApp.
+# Needed when using argument LD_LIBRARY_PATH, and changing defacto the driver libraries.
+export __RM_NO_VERSION_CHECK=2
+export LD_LIBRARY_PATH=.
+
