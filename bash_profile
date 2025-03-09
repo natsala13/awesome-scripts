@@ -18,3 +18,6 @@ export HISTSIZE=-1
 export HISTFILESIZE=-1
 shopt -s histappend  # make history file append instead of overwrite.
 PROMPT_COMMAND="history -a;$PROMPT_COMMAND"  # write command after each one.
+
+export PYTHONPATH=.
+
