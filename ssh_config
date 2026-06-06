@@ -1,0 +1,53 @@
+
+Host mplex31
+  HostName il-mmplex-31-07.mtl.labs.mlnx
+  User nsala
+  ForwardX11 yes
+  ForwardX11Trusted yes
+
+Host mplex20
+  HostName il-mmplex-020.mtl.labs.mlnx
+  User nsala
+  ForwardX11 yes
+  ForwardX11Trusted yes
+
+Host mplex21
+  HostName il-mmplex-021.mtl.labs.mlnx
+  User nsala
+
+Host mplex316
+  HostName il-mmplex-31-06.mtl.labs.mlnx
+  User nsala
+  ForwardX11 yes
+  ForwardX11Trusted yes
+
+Host mplex32
+  HostName il-mmplex-32-05.mtl.labs.mlnx
+
+Host mplex30-1
+  HostName il-mmplex-30-01.mtl.labs.mlnx
+
+Host bw1
+  HostName 2u1g-b650-1037.ipp2a1.colossus.nvidia.com
+
+Host bw2
+  HostName 4u2g-0021.ipp2a1.colossus.nvidia.com
+
+Host bw3
+  HostName 2u2g-gen-0001.ipp2a2.colossus.nvidia.com
+
+Host bw4
+  HostName 2u1g-b650-0488.ipp2a1.colossus.nvidia.com
+
+Host bw5
+  HostName 4u2g-0021.ipp2a1.colossus.nvidia.com
+ 
+Host bw6
+  HostName 2u1g-b650-0523.ipp2a1.colossus.nvidia.com
+ 
+Host bw7
+  HostName 2u1g-b650-0076.ipp2a1.colossus.nvidia.com
+ 
+Host bw8
+  HostName 2u1g-b650-0075.ipp2a1.colossus.nvidia.com
+
