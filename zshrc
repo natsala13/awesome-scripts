@@ -26,9 +26,3 @@ setopt SHARE_HISTORY       # share history across sessions
 
 export PYTHONPATH=.
 
-# NemoClaw PATH setup
-export PATH="/Users/nsala/.local/bin:$PATH"
-# end NemoClaw PATH setup
-
-# OpenClaw Completion
-[ -f '/Users/nsala/.openclaw/completions/openclaw.zsh' ] && source '/Users/nsala/.openclaw/completions/openclaw.zsh'
